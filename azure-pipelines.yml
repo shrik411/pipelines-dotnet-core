@@ -17,7 +17,6 @@ steps:
   inputs:
     command: 'restore'
     feedsToUse: 'select'
-    vstsFeed: 'my-vsts-feed'
 
 - task: DotNetCoreCLI@2
   inputs:
