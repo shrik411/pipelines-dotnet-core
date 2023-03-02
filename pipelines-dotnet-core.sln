@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pipelines-dotnet-core", "pipelines-dotnet-core.csproj", "{BD7DFAEC-B2D9-4056-9B9F-A6D029E6869A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{270218BA-BD6F-4921-98D8-F631CDC1102D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{BD7DFAEC-B2D9-4056-9B9F-A6D029E6869A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD7DFAEC-B2D9-4056-9B9F-A6D029E6869A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD7DFAEC-B2D9-4056-9B9F-A6D029E6869A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{270218BA-BD6F-4921-98D8-F631CDC1102D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{270218BA-BD6F-4921-98D8-F631CDC1102D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{270218BA-BD6F-4921-98D8-F631CDC1102D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{270218BA-BD6F-4921-98D8-F631CDC1102D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
