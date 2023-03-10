@@ -57,5 +57,5 @@ steps:
     azureSubscription: 'platform-service-connection'
     appType: 'webAppLinux'
     appName: 'angular-app-core'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
 
