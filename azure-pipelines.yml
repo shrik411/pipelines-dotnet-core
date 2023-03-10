@@ -51,3 +51,11 @@ steps:
   inputs:
     targetPath: '$(Build.ArtifactStagingDirectory)'
     artifactName: 'myWebsite'
+
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'platform-service-connection'
+    appType: 'webAppLinux'
+    appName: 'angular-app-core'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+
